@@ -1,0 +1,25 @@
+.container{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo, .sociais{
+    width: 25%;
+}
+.sociais{
+    position: absolute;
+    right: -120px;
+}
+.menu{
+    width: 50%;
+    
+}
+.menu-items{
+    display:flex;
+    justify-content: space-around;
+    
+}

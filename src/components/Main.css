@@ -1,0 +1,85 @@
+
+.main{
+    margin: auto;
+}
+.img-cozinha{
+    height: 600px;
+    width: 1243px;
+}
+.main-cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.texto {
+    text-align: center;
+    text-decoration: overline;
+}
+.container-slider{
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+}
+.textoSlider{
+    text-decoration:underline;
+    -webkit-text-decoration-style: wavy;
+    text-decoration-style:dashed;
+    -webkit-text-decoration-color: rgb(241, 157, 0);
+    text-decoration-color: rgb(236, 6, 6);
+}
+.slider{
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    left: 80px;
+}
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+
+.slider input {
+    display: none;
+}
+
+.slider label {
+    background-color: #fcfcfc;
+    bottom: 10px;
+    cursor:pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+    border-radius: 50%;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+    border-radius: 50%;
+}
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}

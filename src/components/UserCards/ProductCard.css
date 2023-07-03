@@ -1,0 +1,36 @@
+.productsMain{
+    border: solid gray 2px;
+    height: 450px;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: grey;
+}
+.productsMain :hover{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border: transparent;
+}
+
+.productsMain img{
+    height: 390px;
+    width: 370px;
+}
+
+.productsMain strong{
+    margin-bottom: 10px;
+}
+
+.productsMain span{
+    background-color: rgb(221, 45, 14);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: -10px;
+}
+
+.productsMain button{
+    background-color: rgb(64, 156, 192);
+    color: rgb(0, 0, 0);
+    height: 35px;
+    width: 125px;
+    margin-bottom: 5px;
+}
